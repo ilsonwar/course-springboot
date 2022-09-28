@@ -44,7 +44,7 @@ public class Order implements Serializable {
 		setOrderStatus(orderStatus);
 		this.client = client;
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
